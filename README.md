@@ -6,7 +6,8 @@ Data science school project using Python and Jupyter to analyze flight booking d
 flight-price-analysis/
 │
 ├── data/
-│   └── flights.csv
+│   ├── raw/
+│   └── cleaned/
 │
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
@@ -16,7 +17,8 @@ flight-price-analysis/
 │   └── 05_model_optimization.ipynb
 |
 ├── report/
-│   └── final_report.ipynb
+│   ├── final_report.ipynb
+│   └── final_report.html
 |
 ├── images/
 ├── models/
