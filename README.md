@@ -17,11 +17,8 @@ flight-price-analysis/
 │   └── 05_model_optimization.ipynb
 |
 ├── report/
-│   ├── final_report.ipynb
 │   └── final_report.html
 |
-├── images/
-├── models/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
