@@ -17,7 +17,8 @@ flight-price-analysis/
 │   └── 05_model_optimization.ipynb
 |
 ├── report/
-│   └── final_report.html
+│   ├── report.html
+│   └── pages/
 |
 ├── requirements.txt
 ├── README.md

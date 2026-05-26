@@ -38,6 +38,22 @@
             color: #2980b9;
             font-weight: bold;
         }
+
+        .section {
+            margin-top: 50px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+        }
+
+        .question {
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 
@@ -73,6 +89,49 @@
             <a href="pages/optimization.html">Open Notebook</a>
         </div>
 
+    </div>
+
+    <div class="section">
+        <h2>Research Questions & Findings</h2>
+
+        <div class="question">
+            <strong>a) Does the price vary depending on the airline?</strong>
+            <p>Yes, flight prices vary significantly depending on the airline. Some airlines consistently offer higher average prices than others.</p>
+        </div>
+
+        <div class="question">
+            <strong>b) How does the price change when tickets are booked 1 or 2 days before departure?</strong>
+            <p>Prices tend to be higher when tickets are booked close to the departure date. Early booking is generally cheaper.</p>
+        </div>
+
+        <div class="question">
+            <strong>c) Does the price vary based on departure and arrival times?</strong>
+            <p>Yes, departure and arrival times have a moderate impact. Late-night and early-morning flights are usually cheaper.</p>
+        </div>
+
+        <div class="question">
+            <strong>d) How does the price change according to source and destination cities?</strong>
+            <p>Source and destination cities have a limited impact on price variations compared to other features.</p>
+        </div>
+
+        <div class="question">
+            <strong>e) How does the ticket price differ between Economy and Business class?</strong>
+            <p>Business class tickets are significantly more expensive than Economy class tickets, making class one of the strongest price factors.</p>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>Quick Conclusion</h2>
+
+        <p>
+            This project demonstrates that flight ticket prices are mainly influenced by travel class, airline, flight duration, number of stops, and booking time.
+            Business class and longer flights significantly increase prices, while early booking and direct flights tend to reduce costs.
+        </p>
+
+        <p>
+            The analysis and machine learning models confirm strong predictive patterns in the dataset, making it suitable for accurate price prediction and classification tasks.
+        </p>
     </div>
 
 </body>
